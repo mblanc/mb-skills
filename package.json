@@ -1,0 +1,24 @@
+{
+  "name": "mb-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Matthieu Blanc's agentic skills repository following the Agent Skills specification",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mblanc/mb-skills"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "new-skill": "bash scripts/new-skill.sh",
+    "validate": "bash scripts/validate-skills.sh",
+    "link-skills": "bash scripts/link-skills.sh",
+    "list-skills": "bash scripts/list-skills.sh",
+    "changeset": "changeset",
+    "version": "changeset version && node scripts/sync-plugin-version.mjs",
+    "check-plugin-version": "node scripts/sync-plugin-version.mjs --check"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.7.0",
+    "@changesets/cli": "^2.30.0"
+  }
+}

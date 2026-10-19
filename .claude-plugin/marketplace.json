@@ -1,0 +1,22 @@
+{
+  "name": "mblanc",
+  "owner": {
+    "name": "Matthieu Blanc",
+    "url": "https://github.com/mblanc"
+  },
+  "description": "Matthieu Blanc's curated agentic skills, as an installable plugin.",
+  "plugins": [
+    {
+      "name": "mb-skills",
+      "source": "./",
+      "description": "Matthieu Blanc's curated agentic skills for software engineering and productivity.",
+      "category": "engineering",
+      "keywords": [
+        "agent-skills",
+        "engineering",
+        "productivity",
+        "skills"
+      ]
+    }
+  ]
+}

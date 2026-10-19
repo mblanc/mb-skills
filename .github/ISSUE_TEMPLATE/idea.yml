@@ -1,0 +1,24 @@
+name: Idea or feedback
+description: A new skill or a change to an existing skill, grounded in a real session.
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill
+      description: Which existing skill this changes, or the proposed name for a new skill.
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: What went wrong or what gap you hit
+      description: The real session where you needed this change or skill. Include harness and model.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed change
+      description: What you would change or add, as concretely as possible.
+    validations:
+      required: true

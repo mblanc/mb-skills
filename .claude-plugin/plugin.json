@@ -1,0 +1,22 @@
+{
+  "name": "mb-skills",
+  "version": "0.1.0",
+  "description": "Matthieu Blanc's curated agentic skills for software engineering and productivity, built on the Agent Skills Specification.",
+  "author": {
+    "name": "Matthieu Blanc",
+    "url": "https://github.com/mblanc"
+  },
+  "homepage": "https://github.com/mblanc/mb-skills",
+  "repository": "https://github.com/mblanc/mb-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "agent-skills",
+    "engineering",
+    "productivity",
+    "skills"
+  ],
+  "skills": [
+    "./skills/productivity/be-more-ambitious",
+    "./skills/productivity/gauntlet-loop"
+  ]
+}

@@ -1,0 +1,39 @@
+name: Bug
+description: A skill did the wrong thing in a real session.
+labels: ["bug"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill
+      description: Which skill (e.g. `my-skill`).
+    validations:
+      required: true
+  - type: input
+    id: harness
+    attributes:
+      label: Harness and version
+      description: e.g. Antigravity, Gemini CLI, Claude Code, Codex CLI, Cursor. Mention how you installed (plugin, symlink, or skills.sh).
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Model and effort
+      description: Which model was running and roughly how full the context window was when it happened.
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you ran, and what the skill did. Paste the relevant part of the session.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+      description: What the skill should have done instead, and which section of its SKILL.md (if any) says so.
+    validations:
+      required: true

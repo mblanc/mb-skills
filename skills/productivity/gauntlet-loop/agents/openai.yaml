@@ -1,0 +1,5 @@
+interface:
+  display_name: "Gauntlet Loop"
+  short_description: "Transform instructions into a builder-vs-critic Gauntlet Loop with Objective, Reference/Metric, and Boundaries"
+policy:
+  allow_implicit_invocation: false

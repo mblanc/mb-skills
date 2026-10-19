@@ -1,0 +1,5 @@
+interface:
+  display_name: "Be More Ambitious"
+  short_description: "Elevate instructions across Altitude, Depth, and Range"
+policy:
+  allow_implicit_invocation: false
