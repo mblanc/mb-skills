@@ -1,0 +1,3 @@
+interface:
+  display_name: "Ambition Calibrator"
+  short_description: "Calibrate task ambition deeper (not bigger) via Altitude, Depth, Range, and an outside judge"

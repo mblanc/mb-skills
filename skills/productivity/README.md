@@ -13,4 +13,4 @@ Reachable only when you type them (`disable-model-invocation: true` in `SKILL.md
 
 Model- or user-reachable (rich trigger phrasing so the model can reach for them autonomously).
 
-_None yet. Add one with `./scripts/new-skill.sh productivity <skill-name>`._
+- **[ambition-calibrator](./ambition-calibrator/SKILL.md)**: Calibrate a task's ambition deeper (not bigger) across Altitude, Depth, and Range, with a confirmation gate and an outside judge.

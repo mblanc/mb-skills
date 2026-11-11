@@ -138,4 +138,4 @@ General workflow tools, not code-specific ([`skills/productivity/`](./skills/pro
 
 **Model-invoked**
 
-_No model-invoked productivity skills yet. Run `./scripts/new-skill.sh productivity <name>` to add one._
+- **[ambition-calibrator](./skills/productivity/ambition-calibrator/SKILL.md)**: Calibrate a task's ambition deeper (not bigger) across Altitude, Depth, and Range, with a confirmation gate and an outside judge.

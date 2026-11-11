@@ -16,6 +16,7 @@
     "skills"
   ],
   "skills": [
+    "./skills/productivity/ambition-calibrator",
     "./skills/productivity/be-more-ambitious",
     "./skills/productivity/gauntlet-loop"
   ]
